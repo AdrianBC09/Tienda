@@ -7,4 +7,11 @@
     color: greenyellow;
     font-weight: 100;
 }
+p{
+    color: blueviolet
+}
+a:hover{
+    color:white;
+    background-color: black;
+}
 
