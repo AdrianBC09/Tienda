@@ -2,7 +2,6 @@ package com.Tienda.domain;
 
 import jakarta.persistence.*;
 import java.io.Serializable;
-
 import lombok.Data;
 
 @Data
@@ -11,7 +10,7 @@ import lombok.Data;
 public class Categoria implements Serializable {
 
     //version de serializacion
-    private static final long serialversionUID = 1L;
+    private static final long serialVersionUID = 1L;
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
