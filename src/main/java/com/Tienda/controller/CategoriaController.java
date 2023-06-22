@@ -30,7 +30,7 @@ public class CategoriaController {
         log.info("Consumiendo el recurso /categoria/listado");
         List<Categoria> categorias = categoriaService.getCategorias(false);
         model.addAttribute("categorias", categorias);
-        model.addAttribute("Total categorias", categorias.size());
+        model.addAttribute("totalCategorias", categorias.size());
         return "/categoria/listado";
     }
 
