@@ -47,7 +47,6 @@ public class UsuarioDetailsServiceImpl implements UsuarioDetailsService, UserDet
             roles.add(new SimpleGrantedAuthority(role.getNombre()));
         }
 
-
         //Extraer los roles
         return new User(usuario.getUsername(), usuario.getPassword(), roles);
     }
